@@ -1,0 +1,114 @@
+body {
+   margin: 0;
+   font-family: sans-serif;
+   background-color: #f5e8ba;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   overflow-y: hidden;
+   overflow-x: hidden;
+}
+
+#wrapper h2 {
+   display: flex;
+   justify-content: center;
+
+
+}
+
+h2 {
+   color: yellow;
+
+}
+
+#input {
+   border: 2px solid black;
+   border-radius: 5px;
+   margin-top: 30px;
+   height: 2.5em;
+   width: 250px;
+   padding-left: 10px;
+   color: black;
+   font-weight: 700;
+   font-size: 15px;
+}
+
+input:active {
+   border: none;
+}
+
+#wrapper {
+   height: 500px;
+   width: 400px;
+   margin: 10px auto;
+   background-color: #1f2029;
+   border-radius: 10px;
+   padding: 30px;
+   overflow: hidden;
+
+}
+
+#add {
+   height: 35px;
+   width: 55px;
+   border-radius: 5px;
+   border: none;
+   outline: none;
+   color: black;
+   background-color: yellow;
+   font-weight: 800;
+
+}
+
+#todoList {
+   color: white;
+   font-weight: 800;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   cursor: pointer;
+   max-height: 500px;
+   height: 70%;
+   width: auto;
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+
+
+
+/* .content{
+   max-height:500px;
+   
+   -webkit-transition: max-height 0.7s;
+   -moz-transition: max-height 0.7s;
+   transition: max-height 0.7s;
+   
+
+}
+
+.content-open{
+   max-height: 1000px;
+   
+   -webkit-transition: max-height 0.7s;
+   -moz-transition: max-height 0.7s;
+   transition: max-height 0.7s;
+   
+}
+
+.container{
+   height: 10000px;
+   width: 50%;
+   border: 1px solid black;
+}
+#show{
+   margin: auto;
+   display: flex;
+   height: 40px;
+   width: 40%;
+   background-color:#1f2029;
+   border-radius: 10px;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+} */
